@@ -1,0 +1,35 @@
+.todo-form {
+  margin: 32px 0;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #67594e;
+  width: 320px;
+  background: transparent;
+  color: #67594e;
+  font-weight: bold;
+}
+
+.todo-input::placeholder {
+  color: #67594e;
+  font-weight: bold;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: #67594e;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
